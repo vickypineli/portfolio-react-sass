@@ -1,10 +1,31 @@
 {
-  "nav": { 
-        "home": "Inicio", 
-        "about": "Sobre mí" 
-        },
-  "hero": { 
-        "title": "María López", 
-        "subtitle": "Desarrolladora Frontend" 
-        }
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "María López",
+    "subtitle": "Construyo interfaces limpias, accesibles y humanas.",
+    "cta": "Ver proyectos"
+  },
+  "introTitle": "Experiencia y oficio",
+  "introText": "Desarrolladora frontend con enfoque en interfaces accesibles y mantenibles.",
+  "about": {
+    "title": "Sobre mí",
+    "paragraph": "Me formé y reconvertí en desarrollo frontend tras años vinculada a la tecnología. Valoro la claridad y la atención al detalle.",
+    "downloadCV": "Descargar CV"
+  },
+  "projects": {
+    "title": "Proyectos seleccionados"
+  },
+  "contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "thanks": "Gracias — te responderé pronto."
+  }
 }

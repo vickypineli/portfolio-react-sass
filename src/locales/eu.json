@@ -1,10 +1,31 @@
 {
-  "nav": { 
-        "home": "Hasiera", 
-        "about": "Nire buruz" 
-        },
-  "hero": { 
-        "title": "M. Victoria Piñero", 
-        "subtitle": "Frontend Garatzailea" 
-        }
+  "nav": {
+    "home": "Hasiera",
+    "about": "Ni buruz",
+    "projects": "Proiektuak",
+    "contact": "Kontaktua"
+  },
+  "hero": {
+    "title": "María López",
+    "subtitle": "Interfaze garbi, irisgarri eta humanoak eraikitzen.",
+    "cta": "Ikusi proiektuak"
+  },
+  "introTitle": "Esperientzia eta trebetasuna",
+  "introText": "Arreta handiz eta irisgarritasunez diseinatutako frontend interfazeetan espezializatuta.",
+  "about": {
+    "title": "Ni buruz",
+    "paragraph": "Teknologia arloan urteak baino gehiagoko ibilbidearen ondoren frontend garapenera egokitu naiz. Garbitasuna eta xehetasunen zaintza nabarmentzen ditut.",
+    "downloadCV": "CV deskargatu"
+  },
+  "projects": {
+    "title": "Hautatutako proiektuak"
+  },
+  "contact": {
+    "title": "Kontaktua",
+    "name": "Izena",
+    "email": "Posta",
+    "message": "Mezua",
+    "send": "Bidali",
+    "thanks": "Eskerrik asko — laster erantzungo dizut."
+  }
 }

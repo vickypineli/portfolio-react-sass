@@ -1,10 +1,31 @@
 {
-  "nav": { 
-        "home": "Inicio", 
-        "about": "About me" 
-        },
-  "hero": { 
-        "title": "M. Victoria PInero", 
-        "subtitle": "Fronted Developer" 
-        }
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "María López",
+    "subtitle": "Building clean, accessible and human interfaces.",
+    "cta": "See projects"
+  },
+  "introTitle": "Experience & Craft",
+  "introText": "Experienced frontend developer focused on maintainable, accessible interfaces.",
+  "about": {
+    "title": "About me",
+    "paragraph": "I transitioned to frontend development after many years in technology. I value clarity, patience and attention to detail.",
+    "downloadCV": "Download CV"
+  },
+  "projects": {
+    "title": "Selected projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "thanks": "Thank you — I will reply soon."
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "nav": { 
+        "home": "Hasiera", 
+        "about": "Nire buruz" 
+        },
+  "hero": { 
+        "title": "M. Victoria Piñero", 
+        "subtitle": "Frontend Garatzailea" 
+        }
+}

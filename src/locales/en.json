@@ -1,0 +1,10 @@
+{
+  "nav": { 
+        "home": "Inicio", 
+        "about": "About me" 
+        },
+  "hero": { 
+        "title": "M. Victoria PInero", 
+        "subtitle": "Fronted Developer" 
+        }
+}

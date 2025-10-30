@@ -1,0 +1,10 @@
+{
+  "nav": { 
+        "home": "Inicio", 
+        "about": "Sobre mí" 
+        },
+  "hero": { 
+        "title": "María López", 
+        "subtitle": "Desarrolladora Frontend" 
+        }
+}

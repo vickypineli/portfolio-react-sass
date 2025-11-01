@@ -1,19 +1,38 @@
+// ─────────────────────────────────────────────
+// 🎨 Variables Sass + CSS globales
+// ─────────────────────────────────────────────
+
+// Breakpoints (puedes ajustarlos)
+$breakpoint-xs: 480px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// Layout
+$max-width: 1200px;
+$container-padding: 1.5rem;
+
+// Tipografía
+$font-base: 'Inter', sans-serif;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.5rem;
+
+// Paleta (modo claro y oscuro)
 :root {
   --bg: #ffffff;
-  --text: #111827;
-  --muted: #6b7280;
+  --text: #111111;
   --accent: #d4af37;
-  --card-bg: #f9fafb;
+  --accent-hover: #e2c76b;
+  --muted: #555555;
 }
 
-.dark {
-  --bg: #000000;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-  --accent: #d4af37;
-  --card-bg: #0b0b0b;
-}
 
-$max-width: 1100px;
-$gap: 1.25rem;
-$bw: 14px;
+body.dark {
+  --bg: #0a0a0a;
+  --text: #ffffff;
+  --accent: #d4af37;
+  background-color: var(--bg);
+  color: var(--text);
+}

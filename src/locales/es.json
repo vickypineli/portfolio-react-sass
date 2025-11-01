@@ -27,5 +27,8 @@
     "message": "Mensaje",
     "send": "Enviar",
     "thanks": "Gracias — te responderé pronto."
+  },
+  "footer": {
+  "copyright": "Portfolio creado por {{name}}. Todos los derechos reservados."
   }
 }

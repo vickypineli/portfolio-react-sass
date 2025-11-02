@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import ThemeToggle from './ThemeToggle'
 import LanguageDropdown from './LanguageDropdown'
 
@@ -12,25 +14,39 @@ const NAV_LINKS = [
 
 export default function Header() {
   const { t } = useTranslation()
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <header className="header">
       <nav className="nav">
         <div className="logo">Portfolio</div>
 
-        <ul className="nav-links">
-          {NAV_LINKS.map(({ to, key }) => (
-            <li key={key}>
-              <Link to={to}>{t(key)}</Link>
-            </li>
-          ))}
-        </ul>
+        {/* Botón hamburguesa solo visible en móvil */}
+        <button
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Menú"
+        >
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </button>
 
-        <div className="actions">
-          <ThemeToggle />
-          <LanguageDropdown />
+        {/* Contenedor de navegación (desktop + mobile) */}
+        <div className={`nav-links-wrapper ${menuOpen ? 'open' : ''}`}>
+          <ul className="nav-links">
+            {NAV_LINKS.map(({ to, key }) => (
+              <li key={key} onClick={() => setMenuOpen(false)}>
+                <Link to={to}>{t(key)}</Link>
+              </li>
+            ))}
+          </ul>
+
+          <div className="actions">
+            <ThemeToggle />
+            <LanguageDropdown />
+          </div>
         </div>
       </nav>
     </header>
   )
 }
+
